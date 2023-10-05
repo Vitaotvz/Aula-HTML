@@ -1,0 +1,29 @@
+body{
+    background-color: #9dddf4;
+}
+
+.alinhado{
+    display:flex;
+    align-items: center;
+}
+.profile-image {
+    max-width: 100px;
+    margin: 20px;
+}
+h1{
+    font-size: 46px;
+}
+h3{
+    font-size: 20px;
+}
+p{
+    font-size: 25px;
+}
+li{
+    font-size: 25px;
+}
+
+.botaoAzul:hover{
+    background-color:#2980b9 ;
+    color: white;
+}

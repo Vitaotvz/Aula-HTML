@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA EXEMPLO 02</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estiloTabela.css">
+</head>
+<body>
+    <h1>TABELA EXEMPLO 02</h1>
+    <table>
+        <tr class="borderlinha">
+            <td colspan="2"> A1 + B1</td>
+            <td>C1</td>
+            <td>D1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+            <td>D2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+            <td>D3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td colspan="2">C4 + D4</td>  
+        </tr>
+    </table>
+    <hr>
+    <h1>TABELA EXEMPLO O3</h1>
+<!-- colspan = MESCLAR COLUNAS -->
+<!-- rowspan = MESCLAR LINHAS -->
+    <table>
+        <tr class="borderlinha"> <!-- Primeira linha --> 
+            <td colspan="4"> <!-- Primeira coluna -->
+                A1 + B1 +C1+D1</td>
+
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+            <td>D2</td>
+        </tr>
+        <tr>
+            <td rowspan="2"> A3 + A4 <td>
+            <td>B3</td>
+            <td>C3</td>
+            <td>D3</td>
+        </tr>
+        <tr>
+            <td>B4</td>
+            <td colspan="2">C4 + D4</td>
+        </tr>
+    </table>
+</body>
+</html>

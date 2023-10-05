@@ -1,0 +1,13 @@
+table{
+    border-collapse: collapse;
+    border: 1px dashed yellow;
+    width: 300px;
+
+}
+td{
+    border: 1px dotted crimson;
+    text-align: center;
+}
+.borderlinha{
+    border-bottom: 2px solid rgb(0, 55, 128);
+}
