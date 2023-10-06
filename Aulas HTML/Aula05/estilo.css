@@ -12,6 +12,8 @@ header{
     text-align: center;
     padding-top: 20px;
     padding-bottom:20px;
+    /* display: flex; 
+    align-items:end; */
 }
 
 section{
